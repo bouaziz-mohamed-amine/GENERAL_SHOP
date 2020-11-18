@@ -1,0 +1,57 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/*.delete-btn{
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+*/
+span.buttons-span{
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+
+span.buttons-span span:first-child{
+    margin-right: 10px;
+}
+
+span.buttons-span span:first-child a{
+    color: #328014;
+}
+
+span.buttons-span span:last-child a{
+    color: #ff2a34;
+}
+span.product-header-title{
+    color:red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a.activate-image-upload{
+    display: block;
+
+}
+
+.image-card-upload a.remove-image-upload{
+font-size: 2rem;
+    color: #db3b3f;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    display: none;
+}
+input.image-file-upload{
+    display: none;
+}
